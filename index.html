@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wikipedia Viewer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
+    <link href="css/wikiviewer.css" rel="stylesheet">
+</head>
+
+<body class="background">
+    <div class="main">
+        <h3 class="title">Wiki Viewer</h3>
+        <div class="box">
+            <div class="boxinfo">
+                <table class="tablebox">
+                    <tr>
+                        <td style="text-align: center;">
+                            <form class="searchForm">
+                                <label>
+                                    <img class="mag" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyBAMAAADsEZWCAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAtUExURQAAAAAAAAAAAAAAAEdwTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIGFDTwAAAAPdFJOU/71UgoA1aokfZY5XMJvSDr8WygAAAGkSURBVDgRhdM9S8NAGAfwJ4LVapWg0MmhhX6BQlzEKXloQ1okolMHySAugihmER0Uq4sOHRwEF8G6d3BwLOoHEKx+APGD+FzupXf0qjc0988v/8tLE8BxA8YB/i/1r3VYuvO0FUTH7wMbxXRIXKLY2T3ElWvID1tcTp2P7OAjaKlSJjU4FztOnIqkTJIFGYPOhJwyCZ2ujDRPxZzJvTqOQrKhSdwWgW2Wp0WgTsPxRGCbNZlImnMaIPYHPJLsLxpS2lTyvm1IdUpJ8mRIbVZJnBoSiouj87gGYCOnOo4p/lCopg9NXE8HbOR5pELcNSQUN07SGRjSnOGRpPdmiHwkJPKmhctHQlITp+QSxD98QhJByufZb1gQgQQ7r5oczGtS1ZYL4htNIrctEuLqpKcJ9nIy1mOo6OK7WzwGZwDyRWJXgPgILx5t6p+QgCxxoWOLV9/PfWj5qsQFgwv2kTh7iCVZEoJ4fLlz+0ArqpIS2smHLI2KLI0KnSn7iCxCpQVa2CJYzko28V1Wsgkrde3iuwXPLlim/9K6GkbeOGFPw975W34B2QlH7FrXFAsAAAAASUVORK5CYII=">
+                                </label>
+                                <input id="searchbox" style="display: none;" type='text' size='50' name='searchText'>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <a class="random" href="https://en.wikipedia.org/wiki/Special:Random">Click here for a random article</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="articles">
+
+    </div>
+    <div class="footer">
+        <a href="https://icons8.com">Icon pack by Icons8</a>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="js/wikiviewer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+body {
+    background-color: #e3e3e3 !important;
+ }
+ 
+ .main {
+   margin: 8% auto auto auto;
+ }
+ 
+ .box {
+     margin: auto;
+     width: 540px;
+     height: 150px;
+ }
+ 
+ .tablebox {
+   margin: auto;
+ }
+ 
+ .title {
+     color: rgb(57, 88, 124);
+     padding-top: 0px;
+     font-size: 45px;
+     position: relative;
+     text-align: center;
+     font-family: Merriweather;
+ }
+ 
+ .mag {
+     position: relative;
+     margin: auto;
+     cursor: pointer;
+     color: white;
+     vertical-align: middle;
+ }
+ 
+ .icon {
+     text-align: center;
+ }
+ 
+ .footer {
+     color: rgb(57, 88, 124);
+     text-align: center;
+     margin-top: 40px;
+     font-size: 12px;
+ }
+ 
+ .random {
+     display: inline-block;
+     padding-top: 20px;
+     font-size: 18px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ a {
+     color: rgb(57, 88, 124);
+     text-align: center;
+     text-decoration: none;
+ }
+ 
+ a:hover {
+     color: black;
+     text-decoration: none;
+ }
+
+ .articleResult {
+     color: white;
+     margin: auto;
+     width: 540px;
+     background-color: rgb(128, 164, 206);
+ }
+ 
+ .articleResult:hover {
+     background-color: rgb(93, 128, 168) !important;
+     cursor: pointer;
+ }
+ 
+ .articleTitle {
+     font-family: Ubuntu, sans-serif;
+     font-size: 18px;
+ }
